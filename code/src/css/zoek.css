@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: pacifico;
+    color:#E3BF24;
+    margin-top: 0px;
+    font-size: 150px;
+    text-align: center;
+}
+
+.zoekbalk {
+    text-align: center;
+    margin-top: -90px;
+}
+
+.zoeken {
+    background-color: #28281E;
+    font-size: 25px;
+    width: 800px;
+    border: none;
+    border-radius: 10px;
+    height: 65px;
+    padding-left: 20px;
+    color:#E3BF24;
+}
+
+.zoeken :focus{
+   border: none;
+}
+
+::placeholder {
+    color:#E3BF24;
+}
+
+:focus {
+    outline: none;
+}
+
+p {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: -80px;
+    font-size: 33px;
+    font-family: sans-serif;
+    color:#E3BF24;
+}
